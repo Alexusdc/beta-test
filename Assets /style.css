@@ -26,12 +26,17 @@ header {
 section {
     align-items: center;
     margin: 250px;
+    padding: 50px;
     text-align: center;
+    border-bottom: solid gray 2px;
 }
 
 button {
     background-color:mediumpurple;
     border-radius: 100px;
+    padding: 5px;
+    margin: 15px;
+    display: flex;
 }
 
 /* section styling start */ 
