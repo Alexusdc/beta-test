@@ -21,8 +21,17 @@ header {
 }
 /* header styling end */
 
+
+/* section styling start */ 
 section {
     align-items: center;
     margin: 250px;
     text-align: center;
 }
+
+button {
+    background-color:mediumpurple;
+    border-radius: 100px;
+}
+
+/* section styling start */ 
