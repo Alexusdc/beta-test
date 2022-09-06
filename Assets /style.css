@@ -1,0 +1,28 @@
+body {
+    
+}
+
+/* header styling start */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 15px;
+    font-size: small;
+}
+
+.high-scores {
+    text-align: left;
+}
+
+.timer {
+    text-align: right;
+}
+/* header styling end */
+
+section {
+    align-items: center;
+    margin: 250px;
+    text-align: center;
+}
