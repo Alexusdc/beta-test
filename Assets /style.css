@@ -39,4 +39,13 @@ button {
     display: flex;
 }
 
+.start-page {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
 /* section styling start */ 
