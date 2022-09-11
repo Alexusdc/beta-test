@@ -1,4 +1,4 @@
-var startButton = document.getElementById('start-btn');
+var startButton = document.getElementById('start-page');
 var questionContainerElement = document.getElementById('question-container');
 var questionElement = document.getElementById('questions');
 var questionCounter = 0; 
@@ -9,6 +9,7 @@ var answerBtn4 = document.getElementById('answer-btn-4')
 var score = 0;
 
 startButton.addEventListener('click', startGame);
+
 
 /* starting game start */
 function startGame() {
@@ -26,17 +27,26 @@ function startGame() {
     answerBtn4.addEventListener('click', nextQuestion);
 }
 /* starting game end */
+
 function nextQuestion() {
     console.log('answer button clicked')
      
     if (this.innerHTML === questions[questionCounter].correctAnswer) {
     
     score += 10;    
-
     console.log('correct answer selected')};
+    
     questionCounter++ ;
-    console.log(score);
-    startGame();
+    console.log(score); 
+
+
+    for ( i = 0; i < 4; i++ ) {
+        startGame();
+    } 
+}
+
+function enterScore() {
+    console.log('enter score!');
 }
 
 var questions = [
@@ -50,7 +60,7 @@ var questions = [
         ],
 
         correctAnswer: [
-            '1. JavaScript', 
+            '3. for loops', 
         ]
     },
 

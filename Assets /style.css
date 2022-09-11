@@ -45,6 +45,11 @@ button {
     justify-content: center;
 }
 
+#start-btn {
+    align-items: center;
+    display: flex;
+}
+
 .hide {
     display: none;
 }
